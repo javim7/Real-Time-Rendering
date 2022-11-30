@@ -380,7 +380,7 @@ void main() {
 }
 """
 
-pharaoh = Obj('./Lab4-ModelViewer/Pharaoh.obj')
+pharaoh = Obj('./Pharaoh.obj')
 compiled_vertex_shader = compileShader(vertex_shader, GL_VERTEX_SHADER)
 compiled_fragment_shader1 = compileShader(fragment_shader1, GL_FRAGMENT_SHADER)
 compiled_fragment_shader2 = compileShader(fragment_shader2, GL_FRAGMENT_SHADER)
